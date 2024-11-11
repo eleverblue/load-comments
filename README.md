@@ -38,4 +38,4 @@ The extension uses:
 
 ## Credits
 Made with ❤️ by EleverBlue
-https://github.com/eleverblue/load-comments
+<br>https://github.com/eleverblue/load-comments

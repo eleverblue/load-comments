@@ -1,0 +1,25 @@
+.custom-load-comments-btn {
+    background-color: #065fd4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 8px auto;
+    display: block;
+    font-family: "YouTube Sans", Roboto, sans-serif;
+    transition: background-color 0.2s;
+}
+
+.custom-load-comments-btn:hover {
+    background-color: #0356c6;
+}
+
+.comments-hidden {
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    display: none !important;
+} 

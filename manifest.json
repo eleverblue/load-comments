@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Load Comments",
+    "version": "1.0",
+    "description": "Increases performance by not immediately loading YouTube comments until needed with a simple button click. Lightweight on CPU and memory.",
+    "icons": {
+        "16": "src/icon.png",
+        "32": "src/icon.png",
+        "48": "src/icon.png",
+        "128": "src/icon.png"
+    },
+    "permissions": ["scripting"],
+    "host_permissions": ["*://*.youtube.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "web_accessible_resources": [{
+      "resources": ["icon.png"],
+      "matches": ["*://*.youtube.com/*"]
+    }]
+  }
